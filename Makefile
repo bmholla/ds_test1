@@ -26,7 +26,7 @@ MAPFILES 	= str_simple.mc
 
 BIN 		= str_simple
 
-MAPTARGET	= map_m
+export MAPTARGET	?= map_m
 
 # -----------------------------------
 # User supplied MCC and MFTN flags
